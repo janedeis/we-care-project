@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color:#f0f5ee; */
+
+}
+
+header{
+    margin: 44px 0px 144px 76px;
+    box-sizing:border-box;
+}
+
+.link-header{
+    width:126px;
+    height:29px;
+    color:#989D9C;
+    font-size:24px;
+    font-weight:600;
+    line-height:29px;
+    cursor:pointer;
+    margin-right:23px;
+}
+
+.button-header{
+    width:130px;
+    height:41px;
+    background-color:#665AE1;
+    border-radius:50px;    
+    font-size:24px;
+    font-weight:600;
+    line-height:29px;
+    color:#fff;
+    cursor:pointer;
+
+}
+
+.logo-img{
+    /* border:1px solid #000; */
+    width: 568px;
+    height: 395px;
+    margin-left:125px;
+    display:inline-block;
+}
+
+section{
+    /* border:1px solid #000; */
+    display:inline-block;
+    margin-left:50px;
+}
+
+h1{
+    /* border:1px solid #000; */
+    width: 513px;
+    height:122px;
+    font-weight:900;
+    text-align:center;
+    font-size:100px;
+    line-height:121px;
+    color:#515151;
+}
+
+h2{
+    /* border:1px solid #000; */
+    width: 513px;
+    height:71px;
+    font-weight:500;
+    font-size:58px;
+    line-height:70px;
+    color:#515151;
+}
+p{
+    /* border:1px solid #000; */
+    width:513px;
+    font-weight:400px;
+    font-size:24px;
+    line-height:29px;
+    color:#848484;
+    text-align:left;
+    margin-top:25px;
+}
+
+.button-main{
+    
+    cursor:pointer;
+    width:239px;
+    height:60px;
+    border-radius:21px;
+    background-color:#ADFF00;
+    border:none;
+    margin-top:45px;
+    /*TEXT */
+    font-size:28px;
+    font-weight:700;
+    color:#000;
+}
+
+/*styles to the footer*/
+footer{
+    margin-top:25px;
+    /* border:1px solid #000; */
+    padding:0 0 10px 20px;
+}
+.name-developer{
+    /* border:1px solid #000; */
+    width:800px;
+    font-size:15px;
+    font-weight:600;
+    line-height:20px;
+    color:#000;
+    margin-bottom:5px; 
+    
+}
+
+label{
+    color:#000;
+    font-size:15px;
+    font-weight:600;
+}
+
+.email{
+    font-size:15px;    
+}
+
+.tel{
+    font-size:15px;
+}
+
+
+/*responsevi*/
+@media screen and (max-width:880px){
+    header{
+        display:none;
+    }
+
+    .logo-img{
+        width:auto;
+        height:314px;
+        margin:149px 22px 0 14px
+    }
+
+    h1{
+        width:263px;
+        height:52px;
+        font-size:50px;
+        line-height:60px;
+        margin-top:24px;
+    }
+
+    h2{
+        width:232px;
+        height:37px;
+        font-size:30px;
+        line-height:36px;
+        margin-bottom:14px;
+    }
+
+    .lorem-ipsu{
+        display:none;
+    }
+
+    .buttom-main{
+        width:239px;
+        height:64px;
+    }
+}
